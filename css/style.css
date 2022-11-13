@@ -1,0 +1,14 @@
+.my-col {
+    background-color: blue;
+    /* ricordarmi aspect ratio 1/1 per renderli quadrati
+    e il calc della width per metterne 8 per riga */
+    aspect-ratio: 1/1;
+    width: calc(100% / 8);
+    margin: 0.3rem;
+    border: 1px solid black;
+    /* ricordarmi di allineare il testo al centro
+    con display flex/justifi center/e align items */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
